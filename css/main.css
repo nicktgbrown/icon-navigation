@@ -1,5 +1,6 @@
 html {
   color: #fff;
+  font-family: "Abhaya Libre", serif;
 }
 
 .masthead {
@@ -9,6 +10,10 @@ html {
 a:hover {
   background-color: #fff;
   color: #15114c;
+}
+
+.nav {
+  text-align: center;
 }
 
 .logo {
@@ -23,7 +28,12 @@ a {
 }
 
 @media only screen and (min-width: 60em) {
+
   .logo {
     text-align: left;
+  }
+
+  .nav {
+    text-align: right;
   }
 }
